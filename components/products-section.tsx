@@ -7,7 +7,23 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import Image from 'next/image';
 
-const products = [
+const products = [ 
+  {
+  title: 'Workeloo CRM',
+  description: 'A powerful, modular customer relationship management system built to streamline sales, automate workflows, manage leads, and deliver a fully integrated business experience.',
+  image: 'https://images.pexels.com/photos/3184298/pexels-photo-3184298.jpeg',
+  techStack: ['Next.js', 'Prisma', 'PostgreSQL', 'Tailwind CSS', 'Node.js'],
+  features: [
+    'Lead Management',
+    'Project & Employee Tracking',
+    'Attendance & Payroll',
+    'Email Automation',
+    'Custom Dashboards',
+  ],
+  caseStudyUrl: '#',
+  demoUrl: 'http://www.workeloo.com'
+}
+,
   {
     title: 'AI Analytics Dashboard',
     description: 'Comprehensive business intelligence platform powered by machine learning algorithms for real-time insights and predictive analytics.',
