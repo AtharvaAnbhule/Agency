@@ -9,13 +9,14 @@ import NewsletterSection from '@/components/newsletter-section';
 import ContactSection from '@/components/contact-section';
 import Footer from '@/components/footer';
 import Feedback from '@/components/feedback';
+import CodeEditorPage from '@/components/code-section';
 
 export default function Home() {
   return (
     <main className="min-h-screen">
       <Navbar />
       <HeroSection />
-      
+      <CodeEditorPage />
       <ServicesSection />
       <ProductsSection />
       <PricingSection />
