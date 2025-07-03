@@ -33,6 +33,7 @@ const products = [
     caseStudyUrl: '#',
     demoUrl: '#'
   },
+  
   {
     title: 'E-Commerce Platform',
     description: 'Scalable, multi-vendor e-commerce solution with advanced inventory management, payment processing, and customer analytics.',
@@ -42,6 +43,53 @@ const products = [
     caseStudyUrl: '#',
     demoUrl: '#'
   },
+  {
+  title: 'Companion Way: AI Travel Buddy',
+  description: 'Emotion-aware AI travel companion that detects your mood and provides personalized interactions, conversations, music, and travel recommendations for a joyful solo journey.',
+  image: 'https://s.abcnews.com/images/Business/ai-car-rf-gty-bb-240319_1710852036445_hpMain_16x9_1600.jpg', // You can change this to your actual project image URL
+  techStack: ['React Native', 'Python', 'TensorFlow', 'Node.js', 'MongoDB'],
+  features: [
+    'Real-time Emotion Detection',
+    'Mood-based Voice Interaction',
+    'Personalized Travel Suggestions',
+    'Music & Wellness Recommendations',
+    'Offline Companion Mode',
+  ],
+  caseStudyUrl: '#', // Replace with your case study or GitHub page if available
+  demoUrl: '#' // Replace with a live demo or YouTube video link if available
+},
+{
+  title: 'Myra Crystals',
+  description: 'A spiritual e-commerce platform selling authentic crystals, chakra kits, and wellness products with real-time astrology recommendations.',
+  image: 'https://i.etsystatic.com/42707547/r/il/779dd9/5883628784/il_340x270.5883628784_dnst.jpg',
+  techStack: ['Next.js', 'Stripe', 'MongoDB', 'Tailwind CSS', 'Framer Motion'],
+  features: [
+    'Crystal Shop & Astrology Sync',
+    'Cart & Checkout with Razorpay/Stripe',
+    'Admin Dashboard for Inventory & Orders',
+    'Spiritual Quote Carousel',
+    'Mobile Responsive UI',
+  ],
+  caseStudyUrl: '#',
+  demoUrl: 'https://myra-crystals.vercel.app'
+},
+{
+  title: 'ServiSwift',
+  description: 'On-demand salon service booking platform connecting customers with nearby salons based on services, availability, and ratings.',
+  image: 'https://simplybook.me/build/images/trial-section/beauty-wellness.09220816.png',
+  techStack: ['React', 'Node.js', 'Express', 'MongoDB', 'Razorpay'],
+  features: [
+    'User & Salon Panel with JWT Auth',
+    'Salon Availability & Slot Booking',
+    'Integrated Payment (COD + Razorpay)',
+    'Admin Control Panel for Management',
+    'Notification & Review System',
+  ],
+  caseStudyUrl: '#',
+  demoUrl: '#'
+},
+
+
   {
     title: 'Project Management Suite',
     description: 'Collaborative project management tool with Kanban boards, time tracking, team collaboration, and advanced reporting features.',

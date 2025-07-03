@@ -92,38 +92,7 @@ className = "pt-8"
 
 {/* Featured Video Section */ }
 {/* Featured Video Section */ }
-<motion.div
-  initial={ { y: 100, opacity: 0 } }
-animate = {{ y: 0, opacity: 1 }}
-transition = {{ delay: 0.8, duration: 0.8 }}
-className = "absolute bottom-28 sm:bottom-12 left-1/2 transform -translate-x-1/2 z-10 px-4"
-  >
-  {/* Desktop: Embedded Video */ }
-  < div className = "hidden sm:block bg-black/50 backdrop-blur-sm rounded-xl p-4 shadow-2xl w-[90vw] sm:w-[400px]" >
-    <iframe
-      width="100%"
-height = "225"
-src = "https://www.youtube.com/embed/dQw4w9WgXcQ"
-title = "Stratix Co. Solutions Showcase"
-frameBorder = "0"
-allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-allowFullScreen
-className = "rounded-lg"
-  />
-  </div>
 
-{/* Mobile: YouTube Button */ }
-<div className="sm:hidden flex justify-center ml-[30px] " >
-  <a
-      href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-target = "_blank"
-rel = "noopener noreferrer"
-className = "inline-flex items-center space-x-3 bg-red-500 text-white font-semibold py-3 px-6 rounded-full shadow-lg text-lg transition-all duration-300"
-  >
-  <Play className="w-6 h-6" />
-    </a>
-    </div>
-    </motion.div>
 
 
 {/* Scroll Indicator */ }
