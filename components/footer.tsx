@@ -149,7 +149,7 @@ const year = new Date().getFullYear();
                 <div className="flex items-center space-x-3">
                   <Phone className="w-4 h-4 text-primary" />
                   <a href="tel:+15551234567" className="hover:text-primary transition-colors">
-                    +1 (555) 123-4567
+                   8830573487
                   </a>
                 </div>
                 <div className="flex items-center space-x-3">
